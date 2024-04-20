@@ -1,7 +1,7 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
-const nodecallspython = require("./build/Release/nodecallspython");
+const nodecallspython = require("./build/Release/nodecallspython.node");
 
 class Interpreter
 {
